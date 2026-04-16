@@ -1,0 +1,235 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ROG\\Desktop\\Proyecto clinica\\slnClinica\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{68799785-BF2C-4A6A-8EEE-533F48E06E20}|GraficoClinica\\GraficoClinica.csproj|c:\\users\\rog\\desktop\\proyecto clinica\\slnclinica\\graficoclinica\\graficoclinica.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{68799785-BF2C-4A6A-8EEE-533F48E06E20}|GraficoClinica\\GraficoClinica.csproj|solutionrelative:graficoclinica\\graficoclinica.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68799785-BF2C-4A6A-8EEE-533F48E06E20}|GraficoClinica\\GraficoClinica.csproj|c:\\users\\rog\\desktop\\proyecto clinica\\slnclinica\\graficoclinica\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{68799785-BF2C-4A6A-8EEE-533F48E06E20}|GraficoClinica\\GraficoClinica.csproj|solutionrelative:graficoclinica\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E74C5B7-47D3-43B6-AD3E-CD46161D9FFB}|frmPrincipal\\frmPrincipal.csproj|c:\\users\\rog\\desktop\\proyecto clinica\\slnclinica\\frmprincipal\\crudmedicos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0E74C5B7-47D3-43B6-AD3E-CD46161D9FFB}|frmPrincipal\\frmPrincipal.csproj|solutionrelative:frmprincipal\\crudmedicos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E74C5B7-47D3-43B6-AD3E-CD46161D9FFB}|frmPrincipal\\frmPrincipal.csproj|c:\\users\\rog\\desktop\\proyecto clinica\\slnclinica\\frmprincipal\\crudpaciente.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E74C5B7-47D3-43B6-AD3E-CD46161D9FFB}|frmPrincipal\\frmPrincipal.csproj|solutionrelative:frmprincipal\\crudpaciente.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E74C5B7-47D3-43B6-AD3E-CD46161D9FFB}|frmPrincipal\\frmPrincipal.csproj|c:\\users\\rog\\desktop\\proyecto clinica\\slnclinica\\frmprincipal\\crudmedicos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E74C5B7-47D3-43B6-AD3E-CD46161D9FFB}|frmPrincipal\\frmPrincipal.csproj|solutionrelative:frmprincipal\\crudmedicos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E74C5B7-47D3-43B6-AD3E-CD46161D9FFB}|frmPrincipal\\frmPrincipal.csproj|c:\\users\\rog\\desktop\\proyecto clinica\\slnclinica\\frmprincipal\\crudmedicos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E74C5B7-47D3-43B6-AD3E-CD46161D9FFB}|frmPrincipal\\frmPrincipal.csproj|solutionrelative:frmprincipal\\crudmedicos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E74C5B7-47D3-43B6-AD3E-CD46161D9FFB}|frmPrincipal\\frmPrincipal.csproj|c:\\users\\rog\\desktop\\proyecto clinica\\slnclinica\\frmprincipal\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E74C5B7-47D3-43B6-AD3E-CD46161D9FFB}|frmPrincipal\\frmPrincipal.csproj|solutionrelative:frmprincipal\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E74C5B7-47D3-43B6-AD3E-CD46161D9FFB}|frmPrincipal\\frmPrincipal.csproj|c:\\users\\rog\\desktop\\proyecto clinica\\slnclinica\\frmprincipal\\crudpaciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E74C5B7-47D3-43B6-AD3E-CD46161D9FFB}|frmPrincipal\\frmPrincipal.csproj|solutionrelative:frmprincipal\\crudpaciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E74C5B7-47D3-43B6-AD3E-CD46161D9FFB}|frmPrincipal\\frmPrincipal.csproj|c:\\users\\rog\\desktop\\proyecto clinica\\slnclinica\\frmprincipal\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0E74C5B7-47D3-43B6-AD3E-CD46161D9FFB}|frmPrincipal\\frmPrincipal.csproj|solutionrelative:frmprincipal\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E74C5B7-47D3-43B6-AD3E-CD46161D9FFB}|frmPrincipal\\frmPrincipal.csproj|c:\\users\\rog\\desktop\\proyecto clinica\\slnclinica\\frmprincipal\\citas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0E74C5B7-47D3-43B6-AD3E-CD46161D9FFB}|frmPrincipal\\frmPrincipal.csproj|solutionrelative:frmprincipal\\citas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E74C5B7-47D3-43B6-AD3E-CD46161D9FFB}|frmPrincipal\\frmPrincipal.csproj|c:\\users\\rog\\desktop\\proyecto clinica\\slnclinica\\frmprincipal\\citas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E74C5B7-47D3-43B6-AD3E-CD46161D9FFB}|frmPrincipal\\frmPrincipal.csproj|solutionrelative:frmprincipal\\citas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E74C5B7-47D3-43B6-AD3E-CD46161D9FFB}|frmPrincipal\\frmPrincipal.csproj|c:\\users\\rog\\desktop\\proyecto clinica\\slnclinica\\frmprincipal\\crudpaciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0E74C5B7-47D3-43B6-AD3E-CD46161D9FFB}|frmPrincipal\\frmPrincipal.csproj|solutionrelative:frmprincipal\\crudpaciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E74C5B7-47D3-43B6-AD3E-CD46161D9FFB}|frmPrincipal\\frmPrincipal.csproj|c:\\users\\rog\\desktop\\proyecto clinica\\slnclinica\\frmprincipal\\citas.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E74C5B7-47D3-43B6-AD3E-CD46161D9FFB}|frmPrincipal\\frmPrincipal.csproj|solutionrelative:frmprincipal\\citas.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GraficoClinica.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\ROG\\Desktop\\Proyecto clinica\\slnClinica\\GraficoClinica\\GraficoClinica.edmx",
+              "RelativeDocumentMoniker": "GraficoClinica\\GraficoClinica.edmx",
+              "ToolTip": "C:\\Users\\ROG\\Desktop\\Proyecto clinica\\slnClinica\\GraficoClinica\\GraficoClinica.edmx [Diagram1]",
+              "RelativeToolTip": "GraficoClinica\\GraficoClinica.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2026-04-16T00:49:52.215Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ROG\\Desktop\\Proyecto clinica\\slnClinica\\GraficoClinica\\Form1.cs",
+              "RelativeDocumentMoniker": "GraficoClinica\\Form1.cs",
+              "ToolTip": "C:\\Users\\ROG\\Desktop\\Proyecto clinica\\slnClinica\\GraficoClinica\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "GraficoClinica\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T00:48:39.431Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CrudMedicos.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ROG\\Desktop\\Proyecto clinica\\slnClinica\\frmPrincipal\\CrudMedicos.Designer.cs",
+              "RelativeDocumentMoniker": "frmPrincipal\\CrudMedicos.Designer.cs",
+              "ToolTip": "C:\\Users\\ROG\\Desktop\\Proyecto clinica\\slnClinica\\frmPrincipal\\CrudMedicos.Designer.cs",
+              "RelativeToolTip": "frmPrincipal\\CrudMedicos.Designer.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAIA/wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T00:43:00.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CrudMedicos.cs",
+              "DocumentMoniker": "C:\\Users\\ROG\\Desktop\\Proyecto clinica\\slnClinica\\frmPrincipal\\CrudMedicos.cs",
+              "RelativeDocumentMoniker": "frmPrincipal\\CrudMedicos.cs",
+              "ToolTip": "C:\\Users\\ROG\\Desktop\\Proyecto clinica\\slnClinica\\frmPrincipal\\CrudMedicos.cs",
+              "RelativeToolTip": "frmPrincipal\\CrudMedicos.cs",
+              "ViewState": "AgIAAM8AAAAAAAAAAAAswPIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T00:41:23.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CrudMedicos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ROG\\Desktop\\Proyecto clinica\\slnClinica\\frmPrincipal\\CrudMedicos.cs",
+              "RelativeDocumentMoniker": "frmPrincipal\\CrudMedicos.cs",
+              "ToolTip": "C:\\Users\\ROG\\Desktop\\Proyecto clinica\\slnClinica\\frmPrincipal\\CrudMedicos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "frmPrincipal\\CrudMedicos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T00:41:06.604Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CrudPaciente.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ROG\\Desktop\\Proyecto clinica\\slnClinica\\frmPrincipal\\CrudPaciente.Designer.cs",
+              "RelativeDocumentMoniker": "frmPrincipal\\CrudPaciente.Designer.cs",
+              "ToolTip": "C:\\Users\\ROG\\Desktop\\Proyecto clinica\\slnClinica\\frmPrincipal\\CrudPaciente.Designer.cs",
+              "RelativeToolTip": "frmPrincipal\\CrudPaciente.Designer.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAWwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T00:21:36.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CrudPaciente.cs",
+              "DocumentMoniker": "C:\\Users\\ROG\\Desktop\\Proyecto clinica\\slnClinica\\frmPrincipal\\CrudPaciente.cs",
+              "RelativeDocumentMoniker": "frmPrincipal\\CrudPaciente.cs",
+              "ToolTip": "C:\\Users\\ROG\\Desktop\\Proyecto clinica\\slnClinica\\frmPrincipal\\CrudPaciente.cs",
+              "RelativeToolTip": "frmPrincipal\\CrudPaciente.cs",
+              "ViewState": "AgIAAMgAAAAAAAAAAAAuwO4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T00:20:02.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmPrincipal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ROG\\Desktop\\Proyecto clinica\\slnClinica\\frmPrincipal\\frmPrincipal.cs",
+              "RelativeDocumentMoniker": "frmPrincipal\\frmPrincipal.cs",
+              "ToolTip": "C:\\Users\\ROG\\Desktop\\Proyecto clinica\\slnClinica\\frmPrincipal\\frmPrincipal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "frmPrincipal\\frmPrincipal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T23:59:37.597Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\ROG\\Desktop\\Proyecto clinica\\slnClinica\\frmPrincipal\\frmPrincipal.cs",
+              "RelativeDocumentMoniker": "frmPrincipal\\frmPrincipal.cs",
+              "ToolTip": "C:\\Users\\ROG\\Desktop\\Proyecto clinica\\slnClinica\\frmPrincipal\\frmPrincipal.cs",
+              "RelativeToolTip": "frmPrincipal\\frmPrincipal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T23:52:32.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Citas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ROG\\Desktop\\Proyecto clinica\\slnClinica\\frmPrincipal\\Citas.cs",
+              "RelativeDocumentMoniker": "frmPrincipal\\Citas.cs",
+              "ToolTip": "C:\\Users\\ROG\\Desktop\\Proyecto clinica\\slnClinica\\frmPrincipal\\Citas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "frmPrincipal\\Citas.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T23:51:58.579Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Citas.cs",
+              "DocumentMoniker": "C:\\Users\\ROG\\Desktop\\Proyecto clinica\\slnClinica\\frmPrincipal\\Citas.cs",
+              "RelativeDocumentMoniker": "frmPrincipal\\Citas.cs",
+              "ToolTip": "C:\\Users\\ROG\\Desktop\\Proyecto clinica\\slnClinica\\frmPrincipal\\Citas.cs",
+              "RelativeToolTip": "frmPrincipal\\Citas.cs",
+              "ViewState": "AgIAAOUAAAAAAAAAAAAqwAoBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T00:27:45.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CrudPaciente.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ROG\\Desktop\\Proyecto clinica\\slnClinica\\frmPrincipal\\CrudPaciente.cs",
+              "RelativeDocumentMoniker": "frmPrincipal\\CrudPaciente.cs",
+              "ToolTip": "C:\\Users\\ROG\\Desktop\\Proyecto clinica\\slnClinica\\frmPrincipal\\CrudPaciente.cs [Dise\u00F1o]",
+              "RelativeToolTip": "frmPrincipal\\CrudPaciente.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T23:51:36.193Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Citas.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ROG\\Desktop\\Proyecto clinica\\slnClinica\\frmPrincipal\\Citas.Designer.cs",
+              "RelativeDocumentMoniker": "frmPrincipal\\Citas.Designer.cs",
+              "ToolTip": "C:\\Users\\ROG\\Desktop\\Proyecto clinica\\slnClinica\\frmPrincipal\\Citas.Designer.cs",
+              "RelativeToolTip": "frmPrincipal\\Citas.Designer.cs",
+              "ViewState": "AgIAAPkAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T00:29:20.973Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

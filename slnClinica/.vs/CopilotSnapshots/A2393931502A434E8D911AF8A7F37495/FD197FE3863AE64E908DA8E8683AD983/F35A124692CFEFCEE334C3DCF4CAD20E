@@ -1,0 +1,26 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Text;
+using System.Windows.Forms;
+using Microsoft.Data.SqlClient;
+
+namespace frmPrincipal
+{
+    public partial class CrudPaciente : Form
+    {
+        public CrudPaciente()
+        {
+            InitializeComponent();
+        }
+
+        private void CrudPaciente_Load(object sender, EventArgs e)
+        {
+
+        }
+    }
+}
+
+

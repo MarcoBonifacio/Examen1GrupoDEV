@@ -1,0 +1,252 @@
+﻿namespace frmPrincipal
+{
+    partial class Citas
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            dgvCitas = new DataGridView();
+            label1 = new Label();
+            txtIdCita = new TextBox();
+            label2 = new Label();
+            cmbPaciente = new ComboBox();
+            label3 = new Label();
+            cmbMedico = new ComboBox();
+            label4 = new Label();
+            dtpFecha = new DateTimePicker();
+            label5 = new Label();
+            txtMotivo = new TextBox();
+            btnListar = new Button();
+            btnAgregar = new Button();
+            btnActualizar = new Button();
+            btnEliminar = new Button();
+            txtBuscarC = new TextBox();
+            btnBuscar = new Button();
+
+            ((System.ComponentModel.ISupportInitialize)dgvCitas).BeginInit();
+            SuspendLayout();
+            // 
+            // dgvCitas
+            // 
+            dgvCitas.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvCitas.Location = new Point(20, 280);
+            dgvCitas.Name = "dgvCitas";
+            dgvCitas.RowHeadersWidth = 62;
+            dgvCitas.Size = new Size(760, 250);
+            dgvCitas.TabIndex = 0;
+            dgvCitas.CellDoubleClick += dgvCitas_CellDoubleClick;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(20, 20);
+            label1.Name = "label1";
+            label1.Size = new Size(71, 25);
+            label1.TabIndex = 1;
+            label1.Text = "Id Cita";
+            // 
+            // txtIdCita
+            // 
+            txtIdCita.Location = new Point(110, 17);
+            txtIdCita.Name = "txtIdCita";
+            txtIdCita.Size = new Size(100, 31);
+            txtIdCita.TabIndex = 2;
+            txtIdCita.ReadOnly = true;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(20, 60);
+            label2.Name = "label2";
+            label2.Size = new Size(86, 25);
+            label2.TabIndex = 3;
+            label2.Text = "Paciente";
+            // 
+            // cmbPaciente
+            // 
+            cmbPaciente.Location = new Point(110, 57);
+            cmbPaciente.Name = "cmbPaciente";
+            cmbPaciente.Size = new Size(300, 33);
+            cmbPaciente.TabIndex = 4;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(20, 100);
+            label3.Name = "label3";
+            label3.Size = new Size(75, 25);
+            label3.TabIndex = 5;
+            label3.Text = "Medico";
+            // 
+            // cmbMedico
+            // 
+            cmbMedico.Location = new Point(110, 97);
+            cmbMedico.Name = "cmbMedico";
+            cmbMedico.Size = new Size(300, 33);
+            cmbMedico.TabIndex = 6;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(20, 140);
+            label4.Name = "label4";
+            label4.Size = new Size(56, 25);
+            label4.TabIndex = 7;
+            label4.Text = "Fecha";
+            // 
+            // dtpFecha
+            // 
+            dtpFecha.Location = new Point(110, 137);
+            dtpFecha.Name = "dtpFecha";
+            dtpFecha.Size = new Size(300, 31);
+            dtpFecha.TabIndex = 8;
+            dtpFecha.Format = DateTimePickerFormat.Custom;
+            dtpFecha.CustomFormat = "yyyy-MM-dd HH:mm";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(20, 180);
+            label5.Name = "label5";
+            label5.Size = new Size(62, 25);
+            label5.TabIndex = 9;
+            label5.Text = "Motivo";
+            // 
+            // txtMotivo
+            // 
+            txtMotivo.Location = new Point(110, 177);
+            txtMotivo.Name = "txtMotivo";
+            txtMotivo.Size = new Size(500, 31);
+            txtMotivo.TabIndex = 10;
+            // 
+            // btnListar
+            // 
+            btnListar.Location = new Point(640, 17);
+            btnListar.Name = "btnListar";
+            btnListar.Size = new Size(112, 34);
+            btnListar.TabIndex = 11;
+            btnListar.Text = "Listar";
+            btnListar.UseVisualStyleBackColor = true;
+            btnListar.Click += btnListar_Click;
+            // 
+            // btnAgregar
+            // 
+            btnAgregar.Location = new Point(20, 220);
+            btnAgregar.Name = "btnAgregar";
+            btnAgregar.Size = new Size(112, 34);
+            btnAgregar.TabIndex = 12;
+            btnAgregar.Text = "Agregar";
+            btnAgregar.UseVisualStyleBackColor = true;
+            btnAgregar.Click += btnAgregar_Click;
+            // 
+            // btnActualizar
+            // 
+            btnActualizar.Location = new Point(150, 220);
+            btnActualizar.Name = "btnActualizar";
+            btnActualizar.Size = new Size(112, 34);
+            btnActualizar.TabIndex = 13;
+            btnActualizar.Text = "Actualizar";
+            btnActualizar.UseVisualStyleBackColor = true;
+            btnActualizar.Click += btnActualizar_Click;
+            // 
+            // btnEliminar
+            // 
+            btnEliminar.Location = new Point(280, 220);
+            btnEliminar.Name = "btnEliminar";
+            btnEliminar.Size = new Size(112, 34);
+            btnEliminar.TabIndex = 14;
+            btnEliminar.Text = "Eliminar";
+            btnEliminar.UseVisualStyleBackColor = true;
+            btnEliminar.Click += btnEliminar_Click;
+            // 
+            // txtBuscarC
+            // 
+            txtBuscarC.Location = new Point(640, 60);
+            txtBuscarC.Name = "txtBuscarC";
+            txtBuscarC.Size = new Size(140, 31);
+            txtBuscarC.TabIndex = 15;
+            // 
+            // btnBuscar
+            // 
+            btnBuscar.Location = new Point(640, 100);
+            btnBuscar.Name = "btnBuscar";
+            btnBuscar.Size = new Size(112, 34);
+            btnBuscar.TabIndex = 16;
+            btnBuscar.Text = "Buscar";
+            btnBuscar.UseVisualStyleBackColor = true;
+            btnBuscar.Click += btnBuscar_Click;
+            // 
+            // Citas
+            // 
+            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 560);
+            Name = "Citas";
+            Text = "Citas";
+            Load += Citas_Load;
+            Controls.Add(btnBuscar);
+            Controls.Add(txtBuscarC);
+            Controls.Add(btnEliminar);
+            Controls.Add(btnActualizar);
+            Controls.Add(btnAgregar);
+            Controls.Add(btnListar);
+            Controls.Add(txtMotivo);
+            Controls.Add(label5);
+            Controls.Add(dtpFecha);
+            Controls.Add(label4);
+            Controls.Add(cmbMedico);
+            Controls.Add(label3);
+            Controls.Add(cmbPaciente);
+            Controls.Add(label2);
+            Controls.Add(txtIdCita);
+            Controls.Add(label1);
+            Controls.Add(dgvCitas);
+            ((System.ComponentModel.ISupportInitialize)dgvCitas).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
+        }
+
+        #endregion
+
+        private DataGridView dgvCitas;
+        private Label label1;
+        private TextBox txtIdCita;
+        private Label label2;
+        private ComboBox cmbPaciente;
+        private Label label3;
+        private ComboBox cmbMedico;
+        private Label label4;
+        private DateTimePicker dtpFecha;
+        private Label label5;
+        private TextBox txtMotivo;
+        private Button btnListar;
+        private Button btnAgregar;
+        private Button btnActualizar;
+        private Button btnEliminar;
+        private TextBox txtBuscarC;
+        private Button btnBuscar;
+    }
+}

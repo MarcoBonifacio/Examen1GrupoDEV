@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="frmPrincipal/frmPrincipal.csproj" />
+  <Project Path="GraficoClinica/GraficoClinica.csproj" />
+</Solution>

@@ -1,0 +1,231 @@
+﻿namespace frmPrincipal
+{
+    partial class CrudMedicos
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            dgvMedico = new DataGridView();
+            label1 = new Label();
+            txtCodMedico = new TextBox();
+            label2 = new Label();
+            txtAPaterno = new TextBox();
+            label3 = new Label();
+            txtAMaterno = new TextBox();
+            label4 = new Label();
+            txtNombres = new TextBox();
+            label5 = new Label();
+            txtEspecialidad = new TextBox();
+            btnListar = new Button();
+            btnAgregar = new Button();
+            btnActualizar = new Button();
+            btnEliminar = new Button();
+            txtBuscar = new TextBox();
+            btnBuscar = new Button();
+
+            ((System.ComponentModel.ISupportInitialize)dgvMedico).BeginInit();
+            SuspendLayout();
+            // 
+            // dgvMedico
+            // 
+            dgvMedico.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvMedico.Location = new Point(20, 300);
+            dgvMedico.Name = "dgvMedico";
+            dgvMedico.RowHeadersWidth = 62;
+            dgvMedico.Size = new Size(760, 200);
+            dgvMedico.TabIndex = 0;
+            dgvMedico.CellDoubleClick += dgvMedico_CellDoubleClick;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(20, 20);
+            label1.Name = "label1";
+            label1.Size = new Size(71, 25);
+            label1.TabIndex = 1;
+            label1.Text = "Codigo";
+            // 
+            // txtCodMedico
+            // 
+            txtCodMedico.Location = new Point(140, 17);
+            txtCodMedico.Name = "txtCodMedico";
+            txtCodMedico.Size = new Size(150, 31);
+            txtCodMedico.TabIndex = 2;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(20, 60);
+            label2.Name = "label2";
+            label2.Size = new Size(86, 25);
+            label2.TabIndex = 3;
+            label2.Text = "A. Paterno";
+            // 
+            // txtAPaterno
+            // 
+            txtAPaterno.Location = new Point(140, 57);
+            txtAPaterno.Name = "txtAPaterno";
+            txtAPaterno.Size = new Size(250, 31);
+            txtAPaterno.TabIndex = 4;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(20, 100);
+            label3.Name = "label3";
+            label3.Size = new Size(88, 25);
+            label3.TabIndex = 5;
+            label3.Text = "A. Materno";
+            // 
+            // txtAMaterno
+            // 
+            txtAMaterno.Location = new Point(140, 97);
+            txtAMaterno.Name = "txtAMaterno";
+            txtAMaterno.Size = new Size(250, 31);
+            txtAMaterno.TabIndex = 6;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(20, 140);
+            label4.Name = "label4";
+            label4.Size = new Size(78, 25);
+            label4.TabIndex = 7;
+            label4.Text = "Nombres";
+            // 
+            // txtNombres
+            // 
+            txtNombres.Location = new Point(140, 137);
+            txtNombres.Name = "txtNombres";
+            txtNombres.Size = new Size(300, 31);
+            txtNombres.TabIndex = 8;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(20, 180);
+            label5.Name = "label5";
+            label5.Size = new Size(102, 25);
+            label5.TabIndex = 9;
+            label5.Text = "Especialidad";
+            // 
+            // txtEspecialidad
+            // 
+            txtEspecialidad.Location = new Point(140, 177);
+            txtEspecialidad.Name = "txtEspecialidad";
+            txtEspecialidad.Size = new Size(300, 31);
+            txtEspecialidad.TabIndex = 10;
+            // 
+            // btnListar
+            // 
+            btnListar.Location = new Point(640, 17);
+            btnListar.Name = "btnListar";
+            btnListar.Size = new Size(112, 34);
+            btnListar.TabIndex = 11;
+            btnListar.Text = "Listar";
+            btnListar.UseVisualStyleBackColor = true;
+            btnListar.Click += btnListar_Click;
+            // 
+            // btnAgregar
+            // 
+            btnAgregar.Location = new Point(20, 220);
+            btnAgregar.Name = "btnAgregar";
+            btnAgregar.Size = new Size(112, 34);
+            btnAgregar.TabIndex = 12;
+            btnAgregar.Text = "Agregar";
+            btnAgregar.UseVisualStyleBackColor = true;
+            btnAgregar.Click += btnAgregar_Click;
+            // 
+            // btnActualizar
+            // 
+            btnActualizar.Location = new Point(150, 220);
+            btnActualizar.Name = "btnActualizar";
+            btnActualizar.Size = new Size(112, 34);
+            btnActualizar.TabIndex = 13;
+            btnActualizar.Text = "Actualizar";
+            btnActualizar.UseVisualStyleBackColor = true;
+            btnActualizar.Click += btnActualizar_Click;
+            // 
+            // btnEliminar
+            // 
+            btnEliminar.Location = new Point(280, 220);
+            btnEliminar.Name = "btnEliminar";
+            btnEliminar.Size = new Size(112, 34);
+            btnEliminar.TabIndex = 14;
+            btnEliminar.Text = "Eliminar";
+            btnEliminar.UseVisualStyleBackColor = true;
+            btnEliminar.Click += btnEliminar_Click;
+            // 
+            // txtBuscar
+            // 
+            txtBuscar.Location = new Point(640, 60);
+            txtBuscar.Name = "txtBuscar";
+            txtBuscar.Size = new Size(140, 31);
+            txtBuscar.TabIndex = 15;
+            // 
+            // btnBuscar
+            // 
+            btnBuscar.Location = new Point(640, 100);
+            btnBuscar.Name = "btnBuscar";
+            btnBuscar.Size = new Size(112, 34);
+            btnBuscar.TabIndex = 16;
+            btnBuscar.Text = "Buscar";
+            btnBuscar.UseVisualStyleBackColor = true;
+            btnBuscar.Click += btnBuscar_Click;
+            // 
+            // CrudMedicos
+            // 
+            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 520);
+            Name = "CrudMedicos";
+            Text = "CrudMedicos";
+            Load += CrudMedicos_Load;
+            Controls.Add(btnBuscar);
+            Controls.Add(txtBuscar);
+            Controls.Add(btnEliminar);
+            Controls.Add(btnActualizar);
+            Controls.Add(btnAgregar);
+            Controls.Add(btnListar);
+            Controls.Add(txtEspecialidad);
+            Controls.Add(label5);
+            Controls.Add(txtNombres);
+            Controls.Add(label4);
+            Controls.Add(txtAMaterno);
+            Controls.Add(label3);
+            Controls.Add(txtAPaterno);
+            Controls.Add(label2);
+            Controls.Add(txtCodMedico);
+            Controls.Add(label1);
+            Controls.Add(dgvMedico);
+            ((System.ComponentModel.ISupportInitialize)dgvMedico).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
+        }
+
+        #endregion
+    }
+}
