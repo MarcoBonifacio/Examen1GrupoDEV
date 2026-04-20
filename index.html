@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infografía: Salud Conectada - Grupo D.E.V.</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #e9ecef;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .infographic-container {
+            max-width: 900px;
+            background-color: #ffffff;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        .header {
+            background: linear-gradient(135deg, #0062cc, #002b5e);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0 0 10px 0;
+            font-size: 2.8em;
+            letter-spacing: 1px;
+        }
+        .header h2 {
+            margin: 0;
+            font-weight: 300;
+            font-size: 1.3em;
+            color: #d1e4ff;
+        }
+        .section {
+            padding: 35px;
+            border-bottom: 2px dashed #e2e8f0;
+        }
+        .section:last-child {
+            border-bottom: none;
+        }
+        .section-title {
+            color: #004085;
+            font-size: 1.8em;
+            margin-top: 0;
+            margin-bottom: 25px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border-bottom: 3px solid #0062cc;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .card {
+            background-color: #f8f9fa;
+            border-left: 5px solid #0062cc;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .card h3 {
+            margin-top: 0;
+            color: #002b5e;
+            font-size: 1.2em;
+        }
+        .tech-tags {
+            margin-top: 15px;
+        }
+        .tag {
+            display: inline-block;
+            background-color: #cce5ff;
+            color: #004085;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: bold;
+            margin-right: 5px;
+            margin-bottom: 8px;
+        }
+        .flow-step {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+            background: #f1f5f9;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .step-number {
+            background-color: #0062cc;
+            color: white;
+            border-radius: 50%;
+            min-width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-right: 15px;
+            flex-shrink: 0;
+        }
+        .footer {
+            background-color: #f8f9fa;
+            color: #6c757d;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.95em;
+            border-top: 1px solid #dee2e6;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="infographic-container">
+        <div class="header">
+            <h1>Clínica "Salud Conectada"</h1>
+            <h2>Implementación de Arquitectura Cliente-Servidor</h2>
+            <p style="margin-top: 15px; font-style: italic;">Desarrollado por el Grupo D.E.V. (Diseño de Software - 2026)</p>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">🏥 El Problema y la Solución</h2>
+            <div class="grid-2">
+                <div class="card" style="border-left-color: #dc3545;">
+                    <h3>Problemática Actual</h3>
+                    <p>La administración manual en el sector salud genera redundancia de datos, pérdida de información, conflictos de horarios y tiempos de espera prolongados.</p>
+                </div>
+                <div class="card" style="border-left-color: #28a745;">
+                    <h3>Solución Tecnológica</h3>
+                    <p>Digitalizar y automatizar la gestión clínica mediante un sistema que centraliza la información para registrar pacientes, médicos y coordinar citas en tiempo real.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">⚙️ Arquitectura del Sistema</h2>
+            <div class="card" style="border-left-color: #17a2b8;">
+                <h3>Arquitectura 2-Tier (Cliente-Servidor)</h3>
+                <p>El sistema se construyó en dos niveles. La <strong>capa de presentación</strong> (interfaz gráfica) y la <strong>lógica de acceso a datos</strong> coexisten en el código de la aplicación de escritorio (code-behind).</p>
+                <p>El servidor de base de datos se encarga de procesar y almacenar transacciones de forma exclusiva.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">🗄️ Base de Datos y Entidades (CRUD)</h2>
+            <p>La base de datos relacional <strong>BDClinica</strong> está normalizada y se gestiona en SQL Server, relacionando un paciente a muchas citas (1:N) y un médico a múltiples citas (1:N).</p>
+            <div class="grid-3">
+                <div class="card">
+                    <h3>👥 Pacientes</h3>
+                    <p>Gestión de altas, información de contacto, demografía, historial y búsquedas por identificador.</p>
+                </div>
+                <div class="card">
+                    <h3>⚕️ Médicos</h3>
+                    <p>Registro de profesionales de la salud, actualización de sus datos y gestión de especialidades.</p>
+                </div>
+                <div class="card">
+                    <h3>📅 Citas</h3>
+                    <p>Programación de encuentros médicos, asociando pacientes y médicos. Permite reprogramar y cancelar.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">💻 Tecnología y Flujo de Operaciones</h2>
+            <div class="tech-tags">
+                <span class="tag">C# y Windows Forms</span>
+                <span class="tag">ADO.NET</span>
+                <span class="tag">SQL Server</span>
+                <span class="tag">Procedimientos Almacenados</span>
+                <span class="tag">Control DataGridView</span>
+            </div>
+            
+            <h3 style="color: #002b5e; margin-top: 25px;">Ciclo de vida de una operación:</h3>
+            <div class="flow-step">
+                <div class="step-number">1</div>
+                <div>El usuario interactúa con la interfaz gráfica en Windows Forms (ej. "Guardar Cita").</div>
+            </div>
+            <div class="flow-step">
+                <div class="step-number">2</div>
+                <div>El evento del botón captura los datos ingresados en la pantalla.</div>
+            </div>
+            <div class="flow-step">
+                <div class="step-number">3</div>
+                <div>ADO.NET inicializa <em>SqlConnection</em> abriendo la red con el servidor SQL.</div>
+            </div>
+            <div class="flow-step">
+                <div class="step-number">4</div>
+                <div><em>SqlCommand</em> ejecuta Procedimientos Almacenados precompilados evitando inyección SQL y mejorando el rendimiento.</div>
+            </div>
+            <div class="flow-step">
+                <div class="step-number">5</div>
+                <div>La interfaz recibe los resultados y actualiza dinámicamente el control <em>DataGridView</em>.</div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p><strong>Integrantes D.E.V.:</strong> Baca Medina, Jerson | Bonifacio Ruiz, Marco | Cahuana Mendoza, Bryan | Llanos Luna, Yury</p>
+            <p>Informe de Implementación de Arquitectura Cliente-Servidor - Evaluación Práctica</p>
+        </div>
+    </div>
+
+</body>
+</html>
